@@ -1,0 +1,44 @@
+{
+  "version": "0.0.1",
+  "description": "InterNations Client-side JS SEO Test Suite",
+  "scripts": {
+    "build": "webpack --progress --profile --colors",
+    "dev": "webpack-dev-server --progress --profile --colors --hot",
+    "deploy": "NODE_ENV=production webpack --progress --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alicoding/react-webpack-babel"
+  },
+  "keywords": [
+      "InterNations",
+      "SEO",
+      "client-side",
+      "rendering"
+  ],
+  "author": "InterNations",
+  "license": "MIT",
+  "dependencies": {
+    "exports-loader": "^0.6.2",
+    "imports-loader": "^0.6.5",
+    "node-libs-browser": "1.0.0",
+    "react": "^0.14.7",
+    "react-dom": "0.14.7",
+    "whatwg-fetch": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.4.5",
+    "babel-loader": "6.2.1",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "bootstrap": "^3.3.6",
+    "css-loader": "0.23.1",
+    "file-loader": "0.8.5",
+    "react-bootstrap": "^0.28.2",
+    "react-hot-loader": "1.3.0",
+    "style-loader": "0.13.0",
+    "url-loader": "0.5.7",
+    "webpack": "1.12.12",
+    "webpack-dev-server": "1.14.1"
+  }
+}
